@@ -46,9 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 870480830086581015, guid: 4e7181bd21e84814da061ef6a41a13d3, type: 3}
+  Fireball: {fileID: 34359408738892574, guid: 6a714b03800c62f4cbc97eddfc9a031d, type: 3}
   spawnPoint: {fileID: 3737602611799444331}
-  PlatformBullet: {fileID: 8568315835621549041, guid: 483abfe6592d55842ad35b929bb7293b,
-    type: 3}
 --- !u!212 &3737602611643417788
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -74,6 +73,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -168,7 +168,6 @@ GameObject:
   - component: {fileID: 3737602612291292152}
   - component: {fileID: 3737602612291292159}
   - component: {fileID: 3737602612291292158}
-  - component: {fileID: 3737602612291292157}
   - component: {fileID: 3737602612291292156}
   - component: {fileID: 3737602612291292147}
   m_Layer: 0
@@ -219,6 +218,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -263,20 +263,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3737602612291292157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3737602612291292146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fefaa4af882771443a8d1a094ef34984, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 3
-  player: {fileID: 3737602612291292146}
 --- !u!114 &3737602612291292156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,6 +287,8 @@ MonoBehaviour:
   ground:
     serializedVersion: 2
     m_Bits: 256
+  hazardDamage: 10
+  hazardDamageRate: 1
   debugComponent: 0
 --- !u!61 &3737602612291292147
 BoxCollider2D:
