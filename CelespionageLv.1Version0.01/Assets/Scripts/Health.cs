@@ -8,7 +8,7 @@ public class Health : MonoBehaviour
     [Header("Health Settings:")]
     [Range(100, 200)]   public float maxHealth = 100.0f;
     public bool destroyOnDeath = true;
-    private float currentHealth;
+    public float currentHealth;
 
     [Header("Debug Settings:")]
     public bool debugComponent = false;
@@ -33,7 +33,7 @@ public class Health : MonoBehaviour
             if (destroyOnDeath)
             {
                 Destroy(gameObject, 0.5f);    // You can set a time to destroy for room to play a death animation.  Destroy(gameObject, 2.5f);
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }
         else if (currentHealth >= maxHealth)

@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameMaster : MonoBehaviour
-{
-   private static GameMaster instance;
+public class PlayerController: MonoBehaviour
+{/*
+   private static SavePointMaster instance; 
+
+   
+   
    public Vector2 lastCheckPointPosition; // variable used to repersent the last checkpoint the player collide withs
 
+   
    void Awake()
    {    
     if(instance==null)
@@ -19,5 +23,5 @@ public class GameMaster : MonoBehaviour
     }
 
 
-   }
+   }*/
 }

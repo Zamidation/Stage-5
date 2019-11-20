@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2415417494002309975}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Level1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,9 +43,9 @@ GameObject:
   - component: {fileID: 650980279063429467}
   - component: {fileID: 3712874525474820310}
   - component: {fileID: 4338539297601650286}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platfroms
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10053,9 +10053,9 @@ GameObject:
   - component: {fileID: 7930118978381386764}
   - component: {fileID: 362723361391168420}
   - component: {fileID: 4591490703911558671}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlatformGrid
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
