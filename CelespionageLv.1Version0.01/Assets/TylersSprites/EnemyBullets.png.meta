@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:CelespionageLv.1Version0.01/Assets/TylersSprites/EnemyBullets.png.meta
 guid: 1ace03c8991fcca46aa8b9fc152b9afe
+========
+guid: ee23fefaadd7fef44a1805ef9b94c488
+>>>>>>>> develop:CelespionageLv.1Version0.01/Assets/Sprites/Bullet.png.meta
+=======
+guid: 1ace03c8991fcca46aa8b9fc152b9afe
+>>>>>>> develop
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -75,6 +83,20 @@ TextureImporter:
     sprites: []
     outline:
     - - {x: 0, y: 2}
+<<<<<<< HEAD
+      - {x: -1.7320509, y: 0.99999994}
+      - {x: -1.7320508, y: -1.0000001}
+      - {x: 0.00000017484555, y: -2}
+      - {x: 1.7320509, y: -0.9999998}
+      - {x: 1.7320509, y: 0.9999998}
+    physicsShape:
+    - - {x: 0, y: 2}
+      - {x: -1.7320509, y: 0.99999994}
+      - {x: -1.7320508, y: -1.0000001}
+      - {x: 0.00000017484555, y: -2}
+      - {x: 1.7320509, y: -0.9999998}
+      - {x: 1.7320509, y: 0.9999998}
+=======
       - {x: -0.09813535, y: 1.9975909}
       - {x: -0.19603428, y: 1.9903694}
       - {x: -0.29346094, y: 1.978353}
@@ -331,6 +353,7 @@ TextureImporter:
       - {x: 0.29345578, y: 1.9783537}
       - {x: 0.1960288, y: 1.99037}
       - {x: 0.09812956, y: 1.9975911}
+>>>>>>> develop
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
