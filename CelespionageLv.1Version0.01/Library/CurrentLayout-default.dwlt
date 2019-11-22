@@ -44,7 +44,7 @@ MonoBehaviour:
     y: 30
     width: 1522
     height: 717
-  m_MinSize: {x: 410, y: 494}
+  m_MinSize: {x: 685, y: 494}
   m_MaxSize: {x: 14006, y: 14044}
   vertical: 0
   controlID: 127
@@ -67,16 +67,16 @@ MonoBehaviour:
     y: 0
     width: 668
     height: 717
-  m_MinSize: {x: 4, y: 22}
+  m_MinSize: {x: 279, y: 72}
   m_MaxSize: {x: 4004, y: 4022}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
   - {fileID: 16}
   - {fileID: 14}
   - {fileID: 15}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 59
+  controlID: 82
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 60
+  controlID: 20
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -806,8 +806,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7.2000003
-    y: 458.4
+    x: -25600
+    y: -25192
     width: 854
     height: 320
   m_ViewDataDictionary: {fileID: 0}
@@ -824,31 +824,31 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefab
+    - Assets/Celespionage
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Prefab
+  - Assets/Celespionage
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\Socia\Desktop\Stage-5\CelespionageLv.1Version0.01
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 13}
-    m_SelectedIDs: 18300000
-    m_LastClickedID: 12312
+    m_SelectedIDs: be2f0000
+    m_LastClickedID: 12222
     m_ExpandedIDs: 00000000d82c00009e2d0000b02e0000322f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Material
-      m_OriginalName: Material
+      m_Name: Celespionage
+      m_OriginalName: Celespionage
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 11646
+      m_UserData: 12222
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -892,7 +892,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000f2500000c03200006c36000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -942,10 +942,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1084.8
-    y: 73.6
-    width: 449
-    height: 712
+    x: -24745.6
+    y: -25569.6
+    width: 666
+    height: 698
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -978,8 +978,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7.2000003
-    y: 80.8
+    x: -25600
+    y: -25569.6
     width: 202
     height: 359
   m_ViewDataDictionary: {fileID: 0}
@@ -988,7 +988,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 78fbffff
+      m_ExpandedIDs: ecf6ffff7afaffff78fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1033,8 +1033,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 209.6
-    y: 80.8
+    x: -25397.6
+    y: -25569.6
     width: 650
     height: 359
   m_ViewDataDictionary: {fileID: 0}
@@ -1050,7 +1050,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 24.205511, y: -1.9582641, z: -10.59375}
     speed: 2
-    m_Value: {x: 2.425628, y: 1.039828, z: -1.2828207}
+    m_Value: {x: 24.205511, y: -1.9582641, z: -10.59375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1085,7 +1085,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 85.67284
     speed: 2
-    m_Value: 14.104202
+    m_Value: 85.67284
   m_Ortho:
     m_Target: 1
     speed: 2
