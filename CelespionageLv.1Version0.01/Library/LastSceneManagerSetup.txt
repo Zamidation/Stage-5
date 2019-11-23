@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Celespanoge/Hub.unity
-=======
-- path: Assets/Personnal Folders/Alex's File/Alex's_Scene.unity
->>>>>>> develop
   isLoaded: 1
   isActive: 1
   isSubScene: 0
