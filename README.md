@@ -16,4 +16,9 @@ The images below should help you with understanding and setting up your gitbash.
 Here is a reference to the git commands
 https://git-scm.com/docs
 
+                                            To change between branches( do the steps above first) 
+git checkout nameofthebranch (look at website for name help)
+git pull 
+open up the celespionage untiy project to see if it synced up
+
 
