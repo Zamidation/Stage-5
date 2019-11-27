@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/SampleScene.unity
-=======
-- path: Assets/Celespanoge/Hub.unity
->>>>>>> develop
+- path: Assets/Celespionage/Hub.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
