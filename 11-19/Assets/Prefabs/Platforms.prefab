@@ -13,10 +13,11 @@ GameObject:
   - component: {fileID: 1359021945904793198}
   - component: {fileID: 8320820761064317834}
   - component: {fileID: 8483058081513941742}
-  - component: {fileID: 8171653583162343723}
+  - component: {fileID: 4262079826860755034}
+  - component: {fileID: 3020695606552510607}
   m_Layer: 8
   m_Name: Platforms
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,7 +158,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8171653583162343723
+--- !u!114 &4262079826860755034
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,4 +170,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11ef285eeb56c640a6ec40fd4a6e542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 2
+--- !u!114 &3020695606552510607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4016646801813357187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 095cc29af5914a34cbfca3182ed2e7db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
