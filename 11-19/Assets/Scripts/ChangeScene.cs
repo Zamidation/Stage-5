@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    public int index;
+    //public int index;
     public string levelname;
     
     // Start is called before the first frame update
@@ -24,9 +24,9 @@ public class ChangeScene : MonoBehaviour
     {
         if (collision.CompareTag("Player")) // trigger whene the collider box collides with a game object with the player Tag
         {
-            SceneManager.LoadScene(index); // sets an index for how many scene  it can hold
+            //SceneManager.LoadScene(index); // sets an index for how many scenes it can hold
             SceneManager.LoadScene("FirstScene");   // load a the following scene name 
-                
+              
         }   
     }
 }

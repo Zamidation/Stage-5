@@ -40,7 +40,7 @@ public class EnemyHealth : MonoBehaviour
             health -= collision.gameObject.GetComponent<Bullet>().damage;
         }
 
-        Debug.Log("Enemy Health is: " + health);
+        //Debug.Log("Enemy Health is: " + health);
 
     }
 
