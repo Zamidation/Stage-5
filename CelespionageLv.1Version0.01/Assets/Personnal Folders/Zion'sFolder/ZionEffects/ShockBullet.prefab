@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2603382712913538101}
   - component: {fileID: 2458555939273648474}
   - component: {fileID: 8602656244085821717}
+  - component: {fileID: 6155969241576727339}
   m_Layer: 0
   m_Name: ShockBullet
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855236368510093972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.886841, y: -1.9984417, z: 3.5453813}
+  m_LocalPosition: {x: 2.886841, y: -2.3, z: 3.5453813}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5763325401980755141}
@@ -67,9 +68,23 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.22463083}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 3.718985
+--- !u!114 &6155969241576727339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855236368510093972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f972b870001bee4089cd47ad17c954a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedmultiplier: 5
+  damage: 5
 --- !u!1 &5266831629570249117
 GameObject:
   m_ObjectHideFlags: 0
