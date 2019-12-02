@@ -38,7 +38,7 @@ public class DialogueTrigger : MonoBehaviour
             Pause.SetActive(false);
             Time.timeScale = 1f;
             isPaused = false;
-           // Destroy(gameObject);
+            Destroy(GameObject.Find("Powerups"));
         }
     }
     
