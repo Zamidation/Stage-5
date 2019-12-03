@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 54
     width: 1350
@@ -21,6 +22,15 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 8}
+=======
+    x: 7.2000003
+    y: 50.4
+    width: 1366.4
+    height: 684.8
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 6}
+>>>>>>> develop
   m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
@@ -94,6 +104,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1350
     height: 619
   m_MinSize: {x: 711, y: 494}
@@ -101,6 +112,15 @@ MonoBehaviour:
   vertical: 0
   controlID: 151
 --- !u!114 &5
+=======
+    width: 1367
+    height: 635
+  m_MinSize: {x: 685, y: 494}
+  m_MaxSize: {x: 14006, y: 14044}
+  vertical: 0
+  controlID: 133
+--- !u!114 &3
+>>>>>>> develop
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,6 +135,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 909
     y: 0
     width: 441
@@ -122,6 +143,15 @@ MonoBehaviour:
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
+=======
+    x: 810
+    y: 0
+    width: 557
+    height: 635
+  m_MinSize: {x: 279, y: 72}
+  m_MaxSize: {x: 4004, y: 4022}
+  m_ActualView: {fileID: 15}
+>>>>>>> develop
   m_Panes:
   - {fileID: 18}
   - {fileID: 15}
@@ -169,9 +199,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 0
     width: 331
     height: 293
+=======
+    y: 332
+    width: 810
+    height: 303
+>>>>>>> develop
   m_MinSize: {x: 232, y: 272}
   m_MaxSize: {x: 10002, y: 10022}
   m_ActualView: {fileID: 17}
@@ -200,8 +236,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1350
     height: 669
+=======
+    width: 1367
+    height: 685
+>>>>>>> develop
   m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &9
@@ -221,7 +262,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1350
+=======
+    width: 1367
+>>>>>>> develop
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -242,8 +287,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 649
     width: 1350
+=======
+    y: 665
+    width: 1367
+>>>>>>> develop
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -266,10 +316,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 909
     height: 619
   m_MinSize: {x: 436, y: 494}
   m_MaxSize: {x: 14006, y: 14044}
+=======
+    width: 810
+    height: 635
+  m_MinSize: {x: 406, y: 494}
+  m_MaxSize: {x: 10002, y: 14044}
+>>>>>>> develop
   vertical: 1
   controlID: 129
 --- !u!114 &12
@@ -291,8 +348,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 909
     height: 326
+=======
+    width: 810
+    height: 332
+>>>>>>> develop
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
@@ -314,11 +376,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 377
     y: 0
+<<<<<<< HEAD
     width: 532
     height: 326
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
+=======
+    width: 475
+    height: 332
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
+  m_ActualView: {fileID: 17}
+>>>>>>> develop
   m_Panes:
   - {fileID: 21}
   - {fileID: 16}
@@ -466,10 +536,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 410
     width: 331
     height: 274
+=======
+    x: 7.2000003
+    y: 412.80002
+    width: 810
+    height: 284
+>>>>>>> develop
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -484,20 +561,35 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Personnal Folders/Zion'sFolder/ZionScripts/Camera Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Personnal Folders/Zion'sFolder/ZionScripts/Camera Scripts
+=======
+    - Assets/Personnal Folders/Montana's file
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Personnal Folders/Montana's file
+>>>>>>> develop
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Zion Jones\Documents\Stage-5\CelespionageLv.1Version0.01
+  m_LastProjectPath: C:\Users\Socia\Desktop\Stage-5\CelespionageLv.1Version0.01
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 142}
     m_SelectedIDs: 843a0000
     m_LastClickedID: 14980
     m_ExpandedIDs: 00000000a83600006838000088380000ae380000443900006a390000dc390000f8390000e43f0000ee3f0000784000005a4200005c4200005e42000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 523e0000
+    m_LastClickedID: 15954
+    m_ExpandedIDs: 00000000b63b0000383d0000cc3e0000204200002e4200008644000090440000864600008846000000ca9a3b
+>>>>>>> develop
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: ZionMaterial
@@ -525,7 +617,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000a83600006a390000e43f0000ee3f00005a4200005c4200005e420000
+=======
+    m_ExpandedIDs: 00000000b63b0000383d0000204200002e42000086440000904400008646000088460000
+>>>>>>> develop
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -602,10 +698,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 909
     y: 84
     width: 439
     height: 600
+=======
+    x: 817.60004
+    y: 80.8
+    width: 555
+    height: 616
+>>>>>>> develop
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -638,17 +741,30 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 84
     width: 377
     height: 307
+=======
+    x: 7.2000003
+    y: 80.8
+    width: 335
+    height: 313
+>>>>>>> develop
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 22bbffff
       m_LastClickedID: -17630
       m_ExpandedIDs: 32b3ffff58b5fffffcf7ffff12f8ffff20f8ffff
+=======
+      m_SelectedIDs: 2e3d0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 56f6ffff
+>>>>>>> develop
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -693,10 +809,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 331
     y: 410
     width: 576
     height: 274
+=======
+    x: 342.4
+    y: 80.8
+    width: 473
+    height: 313
+>>>>>>> develop
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 69e9a893c6992fc4688e527da0d61746
@@ -708,9 +831,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -9.816044, y: -0.52124554, z: -4.1484346}
     speed: 2
     m_Value: {x: -13.381777, y: -1.0070457, z: 11.128196}
+=======
+    m_Target: {x: 7.283808, y: 0.17498378, z: -2.3984375}
+    speed: 2
+    m_Value: {x: 1.981, y: -1.9030001, z: 0}
+>>>>>>> develop
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -743,9 +872,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 6.8298936
     speed: 2
     m_Value: 3.6645267
+=======
+    m_Target: 17.93878
+    speed: 2
+    m_Value: 7.7234216
+>>>>>>> develop
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -873,8 +1008,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 410
     width: 331
     height: 274
+=======
+    x: 7.2000003
+    y: 412.80002
+    width: 810
+    height: 284
+>>>>>>> develop
   m_ViewDataDictionary: {fileID: 0}
