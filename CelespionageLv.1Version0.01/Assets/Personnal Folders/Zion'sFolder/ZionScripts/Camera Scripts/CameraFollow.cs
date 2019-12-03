@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private GameObject player;
+   private GameObject player;
 
     public bool Scene = false;
 
-    public float defaultsize = 10;
+    public float defaultsize = 6;
 
     private void Awake()
     {
@@ -29,7 +28,7 @@ public class CameraFollow : MonoBehaviour
         {
 
             gameObject.GetComponent<Camera>().orthographicSize = defaultsize;
-            transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z - 16);
+            transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z - 5);
 
         }
 
