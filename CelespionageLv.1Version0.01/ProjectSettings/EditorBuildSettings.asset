@@ -4,8 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Celespionage/Hub.unity
-    guid: 51acc8059a14a62469fe1dbd030a8e65
+  m_Scenes: []
   m_configObjects: {}

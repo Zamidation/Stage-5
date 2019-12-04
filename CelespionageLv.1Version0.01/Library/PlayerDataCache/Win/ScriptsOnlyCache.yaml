@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Bullet
+<<<<<<< HEAD
     - CameraFollowPlayer
     - CheckPoints
     - DisplayPlayerHealth
@@ -24,6 +25,38 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
   sceneClasses:
     Assets/Celespionage/Hub.unity:
+=======
+    - CheckPoints
+    - LevelManager
+    - PlayerMovement
+    - Weapon
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridPaintPaletteClipboard
+    - UnityEditor.Tilemaps.GridPaintPaletteWindow
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.PaintableSceneViewGrid
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    Unity.RenderPipelines.Lightweight.Runtime.dll:
+    - UnityEngine.Experimental.Rendering.LWRP.Light2D
+    - UnityEngine.Rendering.LWRP.ForwardRendererData
+    - UnityEngine.Rendering.LWRP.LightweightRenderPipelineAsset
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+  sceneClasses:
+    Assets/Celespanoge/Hub.unity:
+>>>>>>> develop
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -32,14 +65,22 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+<<<<<<< HEAD
     - Class: 23
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+=======
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+>>>>>>> develop
     - Class: 48
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
+<<<<<<< HEAD
     - Class: 61
       Script: {instanceID: 0}
     - Class: 74
@@ -52,6 +93,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 102
       Script: {instanceID: 0}
+=======
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+>>>>>>> develop
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -61,19 +110,26 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10260}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 10680}
     - Class: 114
+=======
+>>>>>>> develop
       Script: {instanceID: 10952}
     - Class: 114
       Script: {instanceID: 11390}
     - Class: 114
       Script: {instanceID: 11406}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 12954}
     - Class: 114
       Script: {instanceID: 13100}
     - Class: 114
       Script: {instanceID: 13134}
+=======
+      Script: {instanceID: 13150}
+>>>>>>> develop
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -775,12 +831,15 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: 4d27d406072ae5c85337eb84a7aa78c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChangeScene
   - hash:
       serializedVersion: 2
+=======
+>>>>>>> develop
       Hash: 3f52d34ea17dfc771004b80f5d492445
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -865,5 +924,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 5
   scenePathNames:
+<<<<<<< HEAD
   - Assets/Celespionage/Hub.unity
   playerPath: E:/Game/CelespionageLv.1Version0.01.exe
+=======
+  - Assets/Celespanoge/Hub.unity
+  playerPath: C:/Users/Zion Jones/Desktop/CelespionageLv.1Version0.01.exe
+>>>>>>> develop
