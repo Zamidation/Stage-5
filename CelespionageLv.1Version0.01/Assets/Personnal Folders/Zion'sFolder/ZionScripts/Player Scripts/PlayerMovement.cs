@@ -115,6 +115,7 @@ public class PlayerMovement : MonoBehaviour
 
             else if (JumpNum < 1)
             {
+                AudioManager.instance.PlaySFX(0);
                 JumpNum = JumpNum + 1;
                 newMovement = new Vector2(rb.velocity.x, jumpPower);
                 rb.velocity = newMovement;
