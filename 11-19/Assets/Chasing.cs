@@ -22,7 +22,7 @@ public class Chasing : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         //if()
-        animator.GetComponent<Rigidbody2D>().velocity = Vector2.MoveTowards (animator.transform.position, playerPosition.position, speed * Time.deltaTime);
+        animator.transform.position = Vector2.MoveTowards(animator.transform.position, playerPosition.position, speed * Time.deltaTime);
 
         if(Input.GetKeyDown(KeyCode.Q))
         {
