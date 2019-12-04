@@ -151,6 +151,7 @@ GameObject:
   - component: {fileID: 3860665847038262678}
   - component: {fileID: 7249616261806269512}
   - component: {fileID: 9047494873629657748}
+  - component: {fileID: 1636552133}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -167,7 +168,7 @@ Transform:
   m_GameObject: {fileID: 8908119541986913552}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.52352, y: 0.52352, z: 0.52352}
   m_Children:
   - {fileID: 3597853657304651998}
   - {fileID: 5234313293968081434}
@@ -289,7 +290,8 @@ MonoBehaviour:
   jump: 32
   speedmultiplier: 10
   jumpPower: 10
-  jumpnum: 0
+  JumpNum: 0
+  defaultJump: 0
   GroundDetection: {fileID: 3597853657304651998}
   Ground:
     serializedVersion: 2
@@ -308,6 +310,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 50
   KillCounter: 0
+--- !u!114 &1636552133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8908119541986913552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb716a3f417d6b46894b7518cf974d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dashSpeed: 20
+  startDashTime: 0.1
 --- !u!1001 &3979375838633942576
 PrefabInstance:
   m_ObjectHideFlags: 0
