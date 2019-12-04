@@ -44,12 +44,12 @@ public class Bullet : MonoBehaviour
 
         if (isMovingRight)
         {
-            transform.Translate(Vector2.right * Time.deltaTime * speedmultiplier);
+            transform.Translate(Vector2.right * (Time.deltaTime / 2) * speedmultiplier);
         }
 
         else
         {
-            transform.Translate(Vector2.left * Time.deltaTime * speedmultiplier);
+            transform.Translate(Vector2.left * (Time.deltaTime /2) * speedmultiplier);
         }
 
 
