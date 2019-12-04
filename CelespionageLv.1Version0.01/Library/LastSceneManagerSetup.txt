@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Celespionage/Hub.unity
-=======
-- path: Assets/Personnal Folders/Alex's File/Door Fix.unity
->>>>>>> develop
+- path: Assets/Celespanoge/Hub.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

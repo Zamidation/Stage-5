@@ -4,13 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Celespionage/Hub.unity
-    guid: 51acc8059a14a62469fe1dbd030a8e65
-=======
-    path: Assets/Celespanoge/Hub.unity
-    guid: 61c063e1b65b05d45a0cd387b428a101
->>>>>>> develop
+  m_Scenes: []
   m_configObjects: {}
