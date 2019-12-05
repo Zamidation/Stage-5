@@ -22,6 +22,9 @@ public class PlayerMovement : MonoBehaviour
     public int defaultJump = 0;
 
     private bool isGrounded; // bool to state whether second jump is possible or not
+    public bool isPlaying;
+
+    public AudioSource Footsteps;
 
     public Transform GroundDetection;
     public LayerMask Ground;
@@ -58,21 +61,38 @@ public class PlayerMovement : MonoBehaviour
             if (transform.localScale.x > 0)
             {
                 transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+                
             }
             else if (transform.localScale.x < 0)
             {
                 transform.localScale = new Vector2(transform.localScale.x, transform.localScale.y);
+ 
+            }
+            if(!Footsteps.isPlaying)
+            {
+                Footsteps.Play();
             }
         }
         else if (Input.GetKeyDown(moveRight))
         {
             if (transform.localScale.x > 0)
             {
-                transform.localScale = new Vector2(transform.localScale.x, transform.localScale.y);
+                transform.localScale = new Vector2(transform.localScale.x, transform.localScale.y);     
             }
             else if (transform.localScale.x < 0)
             {
                 transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+            }
+            if (!Footsteps.isPlaying)
+            {
+                Footsteps.Play();
+            }
+        }
+        else if (!Input.GetKey(moveLeft) && !Input.GetKey(moveRight))
+        {
+            if (Footsteps.isPlaying)
+            {
+                Footsteps.Stop();
             }
         }
 
@@ -80,6 +100,7 @@ public class PlayerMovement : MonoBehaviour
         {
             newMovement = new Vector2(rb.position.x - (Time.deltaTime * speedmultiplier / 2f), rb.position.y);
             rb.position = newMovement;
+            
         }
 
         else if(Input.GetKey(moveLeft))
@@ -94,6 +115,7 @@ public class PlayerMovement : MonoBehaviour
         {
             newMovement = new Vector2(rb.position.x + (Time.deltaTime * speedmultiplier / 2f), rb.position.y);
             rb.position = newMovement;
+            
         }
 
         else if (Input.GetKey(moveRight))
@@ -104,15 +126,18 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        if(Input.GetKeyDown(jump))
+        if (Input.GetKeyDown(jump))
         {
 
             if (isGrounded)
             {
                 newMovement = new Vector2(rb.velocity.x, jumpPower);
                 rb.velocity = newMovement;
+                Footsteps.Stop();
+  
             }
 
+            
             else if (JumpNum < 1)
             {
                 AudioManager.instance.PlaySFX(0);
@@ -120,6 +145,7 @@ public class PlayerMovement : MonoBehaviour
                 newMovement = new Vector2(rb.velocity.x, jumpPower);
                 rb.velocity = newMovement;
             }
+            
 
         }
 

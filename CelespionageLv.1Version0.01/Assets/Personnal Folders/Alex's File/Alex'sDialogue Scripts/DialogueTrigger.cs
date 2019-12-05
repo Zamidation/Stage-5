@@ -24,9 +24,7 @@ public class DialogueTrigger : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             isPaused = true;
-            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-            
-            
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);       
         }
 
     }

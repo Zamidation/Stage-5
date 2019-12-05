@@ -8,6 +8,7 @@ public class PowerUpDoubleJump : MonoBehaviour   //power up actions
 
     public void DoubleJumpStartAction(){
         playerMovement.JumpNum += 2;
+        
     }
 
     public void DoubleJumpEndAction(){
