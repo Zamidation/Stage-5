@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Transform GroundDetection;
     public LayerMask Ground;
+    public AudioSource Footsteps;
 
 
     // Start is called before the first frame update
@@ -63,6 +64,10 @@ public class PlayerMovement : MonoBehaviour
             {
                 transform.localScale = new Vector2(transform.localScale.x, transform.localScale.y);
             }
+            if (!Footsteps.isPlaying)
+            {
+                Footsteps.Play();
+            }
         }
         else if (Input.GetKeyDown(moveRight))
         {
@@ -73,6 +78,17 @@ public class PlayerMovement : MonoBehaviour
             else if (transform.localScale.x < 0)
             {
                 transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+            }
+            if (!Footsteps.isPlaying)
+            {
+                Footsteps.Play();
+            }
+        }
+        else if (!Input.GetKey(moveLeft) && !Input.GetKey(moveRight))
+        {
+            if (Footsteps.isPlaying)
+            {
+                Footsteps.Stop();
             }
         }
 
@@ -109,6 +125,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (isGrounded)
             {
+                Footsteps.Stop();
                 newMovement = new Vector2(rb.velocity.x, jumpPower);
                 rb.velocity = newMovement;
             }

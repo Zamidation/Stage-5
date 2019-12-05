@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Personnal Folders/Alex's File/Door Fix.unity
+- path: Assets/Personnal Folders/Alex's File/MainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
