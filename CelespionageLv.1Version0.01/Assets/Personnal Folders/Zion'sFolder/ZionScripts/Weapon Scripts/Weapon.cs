@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+    public Object Energybar;
 
     public GameObject bullet;
     
@@ -21,7 +22,7 @@ public class Weapon : MonoBehaviour
         
         if(Input.GetButtonDown("Fire1"))
         {
-            //if(Canvas.FindObjectsOfTypeIncludingAssets("EnergyBar"))
+            GameObject.Find(Energybar.name).GetComponent<NewEnergyUI>().ReduceMana(20);
             Instantiate(bullet, spawnPoint.position, spawnPoint.rotation);
         }
 
