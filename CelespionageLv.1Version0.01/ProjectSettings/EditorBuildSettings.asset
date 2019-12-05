@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Celespanoge/Hub.unity
+    path: Assets/Celespionage/Hub.unity
     guid: 61c063e1b65b05d45a0cd387b428a101
   m_configObjects: {}
