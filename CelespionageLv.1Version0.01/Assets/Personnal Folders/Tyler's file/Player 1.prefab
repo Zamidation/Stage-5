@@ -259,6 +259,8 @@ GameObject:
   - component: {fileID: 4508021895322592875}
   - component: {fileID: 4508021895322592876}
   - component: {fileID: 4508021895322592872}
+  - component: {fileID: 4594984366605689635}
+  - component: {fileID: 1958393727307257134}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -388,7 +390,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4508021895322592877}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 565aed154bcd37e4e921a2c0d8835511, type: 3}
   m_Name: 
@@ -400,8 +402,37 @@ MonoBehaviour:
   speedmultiplier: 7
   jumpPower: 6
   JumpNum: 0
-  defaultJump: 0
-  GroundDetection: {fileID: 0}
+  GroundDetection: {fileID: 4508021894354185147}
   Ground:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
+  Footsteps: {fileID: 0}
+--- !u!114 &4594984366605689635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4508021895322592877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb716a3f417d6b46894b7518cf974d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dashSpeed: 30
+  startDashTime: 0.1
+--- !u!114 &1958393727307257134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4508021895322592877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb16344ce413489439087949782958d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  animator: {fileID: 0}
+  runSpeed: 40
