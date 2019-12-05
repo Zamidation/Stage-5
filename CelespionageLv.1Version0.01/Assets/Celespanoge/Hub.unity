@@ -127,16 +127,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7800409172899969358, guid: 15da5b9d2289f7944adb54fe2ba359b7,
-        type: 3}
-      propertyPath: currentCheckPoint
-      value: 
-      objectReference: {fileID: 1130383481}
     - target: {fileID: 6480415872010454584, guid: 15da5b9d2289f7944adb54fe2ba359b7,
         type: 3}
       propertyPath: m_Name
       value: LevelManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7800409172899969358, guid: 15da5b9d2289f7944adb54fe2ba359b7,
+        type: 3}
+      propertyPath: currentCheckPoint
+      value: 
+      objectReference: {fileID: 1130383481}
     - target: {fileID: 6480415872010454585, guid: 15da5b9d2289f7944adb54fe2ba359b7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -377,7 +377,7 @@ PrefabInstance:
     - target: {fileID: 4508021895322592873, guid: 52581a70e4451e945a4ba34b8500549d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.93
+      value: -14.34
       objectReference: {fileID: 0}
     - target: {fileID: 4508021895322592873, guid: 52581a70e4451e945a4ba34b8500549d,
         type: 3}
