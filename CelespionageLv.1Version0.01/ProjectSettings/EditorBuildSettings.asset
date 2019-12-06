@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Personnal Folders/Paul's file/Scenes/Menu.unity
+    path: Assets/Celespionage/InGameScenes/Menu.unity
     guid: 97460a563aefaeb41a7708a15687b4e2
   - enabled: 1
-    path: Assets/Celespionage/Hub.unity
+    path: Assets/Celespionage/InGameScenes/Hub.unity
     guid: 61c063e1b65b05d45a0cd387b428a101
   m_configObjects: {}

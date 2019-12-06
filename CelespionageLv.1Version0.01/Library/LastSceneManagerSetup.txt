@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Celespionage/Hub.unity
-=======
-- path: Assets/Personnal Folders/Tyler's file/Scenes/Atmosphere_level.unity
->>>>>>> 779dfbe01b35468371365dd45f7a3325e6ba632f
+- path: Assets/Celespionage/InGameScenes/Atmosphere_level.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -513,6 +513,11 @@ PrefabInstance:
       propertyPath: sfxClips.Array.data[2]
       value: 
       objectReference: {fileID: 8300000, guid: dd49b475dcb023946942763548077e78, type: 3}
+    - target: {fileID: 5320324622828277560, guid: fa715a8cc8406d54fa1918789f0bde4b,
+        type: 3}
+      propertyPath: bgmClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 588464a03b073584fa7b837f21602771, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa715a8cc8406d54fa1918789f0bde4b, type: 3}
 --- !u!1 &476256407
